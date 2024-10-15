@@ -81,6 +81,11 @@ This project is a simple chat application that uses Node.js for the backend and 
     cd testing
     ```
 
+2. Install dependencies with the following command:
+    ```bash
+    npm i
+    ```
+
 2. Run the tests with the following command:
     ```bash
     npm run test

@@ -55,7 +55,7 @@ This project is a simple chat application that uses Node.js for the backend and 
 1. Clone the repository:
     ```bash
     git clone <repository_url>
-    cd chat-app
+    cd chatApp
     ```
 
 2. Build and start the application with Docker Compose:

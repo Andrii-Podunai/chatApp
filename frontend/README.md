@@ -15,7 +15,7 @@ To get started with the chat application, follow the instructions below.
 1. Clone the repository:
     ```bash
     git clone <repository_url>
-    cd chat-app
+    cd chatApp
     ```
 
 2. Build and start the application using Docker Compose:

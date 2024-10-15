@@ -20,8 +20,13 @@ To run the tests and generate reports, follow these steps:
     ```bash
     cd testing
     ```
+    
+2. Install dependencies with the following command:
+    ```bash
+    npm i
+    ```
 
-2. Run the tests with the following command:
+3. Run the tests with the following command:
     ```bash
     npm run test
     ```

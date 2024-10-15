@@ -86,7 +86,7 @@ This project is a simple chat application that uses Node.js for the backend and 
     npm i
     ```
 
-2. Run the tests with the following command:
+3. Run the tests with the following command:
     ```bash
     npm run test
     ```

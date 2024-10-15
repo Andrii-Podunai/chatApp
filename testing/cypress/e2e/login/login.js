@@ -12,6 +12,10 @@ Given('I fill in the username', () => {
   cy.get('[data-testid="username-input"]').type(users.userA.username); // using data-testid for username
 });
 
+Given('I fill in the password', () => {
+  cy.get('[data-testid="password-input"]').type(users.userA.username); // using data-testid for username
+});
+
 // Step to fill in the login form with correct username and password
 When('I fill in the username and password', () => {
   cy.get('[data-testid="username-input"]').type(users.userA.username); // using data-testid for username
@@ -34,7 +38,6 @@ Then('I should see a validation error for the empty username', () => {
   cy.get('[data-testid="username-input"]:invalid').should('exist'); 
 });
 
-// Validation for empty password
 Then('I should see a validation error for the empty password', () => {
   cy.get('[data-testid="password-input"]:invalid').should('exist');
 });

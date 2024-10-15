@@ -25,7 +25,7 @@ When('User A sends a message {string}', (message) => {
 });
 
 // User A deletes the message
-When('User A deletes the message', () => {
+When('User A deletes the message and verify that the message has been sent', () => {
   cy.get(`[data-testid="delete-button-${messageId}"]`).click();
   cy.get(`[data-testid="message-${messageId}"]`).should('not.exist');
 });

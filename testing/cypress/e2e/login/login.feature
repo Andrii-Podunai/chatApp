@@ -17,6 +17,12 @@ Feature: User Login Validation
     When I click the login button
     Then I should see a validation error for the empty username
 
+  Scenario: User attempts to log in with empty username
+    Given I visit the login page
+    And I fill in the password
+    When I click the login button
+    Then I should see a validation error for the empty username
+
   Scenario: User attempts to log in with empty password
     Given I visit the login page
     And I fill in the username

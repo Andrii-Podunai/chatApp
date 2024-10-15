@@ -55,7 +55,6 @@ const Chat = ({ token, user }) => {
             { user: user.username, message }, // Send message along with user info
             { headers: { Authorization: token } }
         );
-        console.log('Sending message to backend:', newMessage); // Log message being sent
     };
 
     const deleteMessage = async (messageId) => {

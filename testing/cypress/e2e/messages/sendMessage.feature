@@ -5,7 +5,7 @@ Feature: send a message in chat
     When User A tries to send an empty message
     Then User A should see a validation error for the empty message
 
-  Scenario: User A sends a message and User B verifies its existence
+  Scenario: User A sends a message and verifies its existence and after User B verifies its existence
     Given I am logged in as User A
     When User A sends a message "Hello, User B!"
     Then User A verifies the message is sent

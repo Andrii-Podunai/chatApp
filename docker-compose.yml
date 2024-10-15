@@ -38,5 +38,13 @@ services:
     depends_on:
       - backend
 
+  test-runner:
+    build: ./testing
+    container_name: test-runner
+    restart: unless-stopped
+    depends_on:
+      - frontend
+    command: npm run test
+
 volumes:
   mongo-data:
